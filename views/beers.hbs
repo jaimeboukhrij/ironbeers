@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="row d-flex justify-content-around"">
+        {{#each beersInfo}}
+        <div class=" col-md-4 ">
+    <a class = " beersEnlace "href = " #">
+        <div class=" card border-light mb-3 " style=" width: 26rem;">
+            <img class="beers-list" src="{{image_url}}" class="card-img-top" alt="{{name}}">
+            <div class="card-body">
+                <h5 class="card-title">{{name}}</h5>
+                <h6 class="card-tagline">{{tagline}}</h6>
+                <p class="card-text">{{description}}</p>
+            </div>
+        </div>
+        </a>
+
+
+    </div>
+    {{/each}}
+
+</div>
+</div>

@@ -5,3 +5,110 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+body {
+
+    margin: 0px auto;
+    text-align: center;
+
+}
+
+img {
+    width: 100px;
+
+}
+
+footer {
+
+    background-color: #212529;
+    color: white;
+    text-align: left;
+    padding: 5px;
+    margin-top: 3px;
+    font-size: 1em;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%
+}
+
+footer p {
+    margin-top: 8px;
+}
+
+.beersEnlace {
+    text-decoration: none;
+    color: black;
+}
+
+.home-pageList {
+    list-style: none;
+}
+
+.home-page img {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 300px;
+
+}
+
+.home-page a {
+    text-decoration: none;
+    color: white;
+}
+
+.home-page button {
+    margin: 7px;
+    padding: 10px 50px;
+    margin-right: 100px;
+}
+
+.beers-list {
+    width: 100px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 8px;
+
+}
+
+.card-title {
+    text-align: left;
+}
+
+.card-tagline {
+    color: #bfbfbf;
+    text-align: left;
+}
+
+.card-text {
+    font-size: .8em;
+    text-align: left;
+}
+
+
+.cardRandomBeer-img {
+    width: 80px;
+    height: 230px;
+    margin-top: 20px;
+}
+
+.cardRandomBeer-body {
+    text-align: left;
+    padding: 20px 10px;
+}
+
+.cardRandomBeer-body h5 {
+    font-weight: bold;
+}
+
+.cardRandomBeer-titleList {
+    font-weight: bold;
+}
+
+.cardRandomBeer-body>h6:last-child {
+    font-weight: bold;
+}
+
+.cardRandomBeer-list {
+    margin-left: 20px;
+}
